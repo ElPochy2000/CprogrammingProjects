@@ -1,0 +1,23 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Thiago Flores
+Student ID#: 150237220
+Email      : tflores4@myseneca.ca
+Section    : NJJ
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. userServings<=4&&bag1==250||5<=userServings&&userServings<10&&bag1==500||10<=userServings&&bag1==1000
+a. I see 7 relational expressions in each of them
+b. I see 6 logical expressions 
+
+2. I cannot find what the output 9 is and i have to submit this, sorry.
+
+3.the ways that i've done it in these workshops are 2
+either organized all together on the top of the code
+or putting them all together on the top of the page but leaving a separation between the differents part of the code that i will use later

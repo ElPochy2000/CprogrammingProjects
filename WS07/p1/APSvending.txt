@@ -1,0 +1,36 @@
+1. Start
+2. Enable buttons ABC, Power button and Display
+3. On Display request for User input for number and save it on Slot Id
+4. Disable buttons ABC and Enable Buttons #, Cancel, Correct and Display, power button, Cancel, Correct and Display.
+5. Display request for Number # of the Slot Id
+        a) if user pressed Power button skip to step 13
+        b) if user Pressed Cancel. Return to step 1
+        c) if user Pressed Correct. Go back to step 2
+        d) if user Pressed a Number #. Save the ABC and the # in the Slot ID and continue to step 5
+6.Check Slot ID "SKU" price and save it. Display price of product per item. Display Request for product amount (user will input this using the Numbers# buttons). Set minQuantity 1 and maxQuantity 9.
+        a) if user pressed Power button skip to step 13
+        b) if user Pressed Cancel. Return to step 1
+        c) if user Pressed Correct. Go back to step 5
+        d) if user Pressed a Number #. Check Slot Id quantity available.
+                   A) if quantity available is less than quantity selected. Display "Sorry, we do not have # of products in stock, please select again" and return to step 6
+                   B) if quantity available is more than quantity selected. Continue to step 7
+7. Disable buttons number #.
+8. Display Price of the product and total price (total price= quantity selected * price per product) And Request form of payment.
+9. Display Payment options (Credit card, Bank card or NFC phone) and Request a user selection
+        a) if user pressed Power button skip to step 13
+        b) if user Pressed Cancel. Return to step 1
+        c) if user Pressed Correct. Go back to step 6
+        d) if user Pressed Credit card or Bank card. Enable Card reader
+        e) if user Pressed NFC enable NFC reader.
+10. Verify the payment details and authorize the payment.
+        a) if user pressed Power button skip to step 13
+        b) if user Pressed Cancel. Return to step 1
+        c)if user Pressed Correct. Go back to step 9
+        d) if the Payment is unsuccessful, Display error message "there was an error with the payment please try again."
+        and return to step 9.
+        e) if the Payment is successful continue to step 11.
+11. Disable the payment hardware previously selected, cancel button and correct button. Enable Display, power button, and spinning cylinder for the slot ID selected and the quantity selected.
+Display success message "Thank you for purchasing with Super Vending Machine 2000 please pick up your item".
+12. Disable Spinning cylinder. Quantity available -= Quantity selected. 
+if quantity available is less than 5. Send a message to provider. and return to step 1.
+13. End

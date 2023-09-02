@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Thiago Flores
+Student ID#: 150237220
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. I had to learn how to nest different kind of loops
+and how to play with the "&&" and the "||". The problem of doing it
+is that i had to make the code look organized and easy to read so if there
+were any errors it would be easy to track and solve.
+So what i did is that divided the loops in groups and i commented
+the file so either me or any other person reading my code could understand.
+
+2. Without nesting I guess that i would have done a big For loop
+where if the condition or if statment is not met i would do "i=-1"
+so the for loop by itself wouldnt come to a conclusion until
+the condition is truth.
+
+3. With a series of ifs it would look deorganized and hard to read for
+another person trying to look at your code.
+But, if we use if/else if we can know that the rest of the conditions are 
+connected with each other.

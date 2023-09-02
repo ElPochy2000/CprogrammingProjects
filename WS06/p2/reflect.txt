@@ -1,0 +1,24 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : Thiago
+Student ID#: Flores
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. The for itineration as we have to explore the array for us to look for an specific content
+inside the array. Also generally we don't want it to break until it finalizes running the whole
+array and the While and do while would break as soon as it gets the desire result.
+
+2. The most common ways that i found out the syntax problems were generally located
+by visual studio code itself and they were marked in red both in the code itself and the
+right bar for navigating it. I could only figure out semantic errors when running the code 
+either by warnings or undesired results. The most common ones that i found where the pointer error
+for characters and calculations errors due to me trying to summon doubles as int or the other way
+arround.
+
+3. The system is expecting an imput which i did not put. Next time i should imput the desired imput.
